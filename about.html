@@ -45,15 +45,14 @@
 					
 
 				<ul class="nav">
-					<li class="active"><a href="index.html">Main</a></li>
+					<li><a href="index.html">Main</a></li>
 					<li>
 						<a href="about.html">About</a>
 					</li>
-					<li class="last"><a href="contact.html">Contact</a></li>
+					<li class="last"><a data-toggle="modal" href="#contact">Contact</a></li>
 				</ul>
-				<!--end main nav-->
-					
-					
+				<!--end main nav-->  
+                    
 				</div><!--end main menu-->
 				
 			</div>
@@ -63,23 +62,19 @@
 
     <!--main tagline area-->
     <section class="taglineWrap">
-		<div class="container">
-
-            <div class="hero-unit span5">
-              <h1>Viola is your social media radio</h1>
-              <p>Instead of constantly checking your Facebook account for updates, Viola reads your newsfeed out loud as background audio.</p>
-              <p>
+      <div class="container">
+        <div class="row-fluid  tagline">
+          <div class="span8"><h2>Viola started out as a weekend hack combining text to voice and facebook. Now it's way more awesome.</h2></div>
+          <div class="span4 action" style="margin-top: 10px" >
+            <div>
                 <a class="btn btn-large" target="_blank" href="https://chrome.google.com/webstore/detail/kjckcnndmiigmjhpikfmhfendaomodlf?utm_source=chrome-ntp-icon">
                   Get from Chrome Store (Free)
                 </a>
-              </p>
-            </div>            
+            </div>
             
-            
-            <img src="img/screenshot.png" style="margin-top: 20px;" width="520"/>
-            
-            
-		</div> <!-- /container -->
+          </div>
+        </div>
+      </div> <!-- /container -->
     </section>
     
         
@@ -91,86 +86,15 @@
 			<div class="row-fluid">
 					
                     <div class="span12" style="text-align: center">
-                        <h1>In our lives we are overwhelmed by social media updates, that we "have to check". By putting social media in a alternative audio channel, it frees up our visual bandwidth for more important things. </h1>
+                        <h1>We consume media in a lot of different ways. For news, we consume them as TV, online video, articles, and newspapers. For novels, we consume them as books, ebooks, and audio.</h1>
+                        <h1>Social media is now a heavy part of our media consumption, yet we only consume it a single way: as a visual representation on a website. Is there a need for something that translate social media visual content to audio content? Maybe, and maybe not.</h1>
+                        <h1>But I know that that just having a robotic voice read our your friend's status updates is hilarious as hell.</h1>
                     </div>
                 
 					<div class="row-fluid">
 						<div class="divider dotted clearfix"><span></span></div>
 					</div>
-					
-					<!-- carousel -->
-					<div class="row-fluid relative">
-						<div class="span12">
-							<h1>Features</h1>
-						</div>
 
-						<div class="carousel-nav">
-							<div class="pull-right">
-								<a href="#" id="carouselPrev" class="prev-btn pull-left label"><i class="icon-chevron-left icon-white"></i></a>
-								<a href="#" id="carouselNext" class="next-btn pull-left label"><i class="icon-chevron-right icon-white"></i></a>
-							</div>
-						</div>  
-					</div>
-				
-					<div class="row-fluid carouselBox" data-height="0,0" data-slidewidth="250">
-						
-						<div data-delay="0">                    
-							<div class="portfolioItem">
-								<a>
-									<img src="img/content/violapageshot_1.png" alt="project" />
-									<span></span>
-								</a>
-								<div class="title">
-									<span class="icon-picture"></span><a href="#">Auto-imports your newsfeed and Facebook wall</a>
-								</div>
-								<p></p>
-							</div>  
-						</div>
-						
-						
-						
-						<div data-delay="0">
-							<div class="portfolioItem">
-								<a href="">
-									<img src="img/content/violapageshot_2.png" alt="project" />
-									<span></span>
-								</a>
-								<div class="title">
-									<span class="icon-picture"></span><a href="#">Updates your newsfeed every minute and read items out loud</a>
-								</div>
-								<p></p>
-							</div>  
-						</div>
-						
-
-						<div data-delay="0">
-							<div class="portfolioItem">
-								<a>
-									<img src="img/content/violapageshot_3.png" alt="project" />
-									<span></span>
-								</a>
-								<div class="title">
-									<span class="icon-picture"></span><a href="#">Create new columns with any group of your friends</a>
-								</div>
-								<p></p>
-							</div>  
-						</div>
-                        
-                        
-                        <div data-delay="0">                    
-							<div class="portfolioItem">
-								<a>
-									<img src="img/content/violapageshot_4.png" alt="project" />
-									<span></span>
-								</a>
-								<div class="title">
-									<span class="icon-picture"></span><a href="#">Also works as a Facebook client, update statuses and likes.</a>
-								</div>
-								<p></p>
-							</div>  
-						</div>
-					</div>
-				
             </div>
         </div>
     </section>
@@ -202,9 +126,17 @@
                 </div>
             </div>
         </section>
-			
-			
-			
+
+        <div id="contact" class="modal hide fade in" style="display: none; ">
+          <div class="modal-header">
+            <button class="close" data-dismiss="modal">×</button>
+            <h3 style="margin-bottom: 0px">Contact me</h3>
+          </div>
+          <div class="modal-body">
+            <p>Email me at admin@violaapp.com</p>
+          </div>
+        </div>        
+        
     </footer>
 		
 		
